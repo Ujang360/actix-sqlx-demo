@@ -1,0 +1,16 @@
+[package]
+name = "actix-sqlx-demo"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+actix-web = { version = "=4.0.0-beta.6", features = ["secure-cookies", "openssl"] }
+anyhow = "1.0.40"
+dotenv = "0.15.0"
+env_logger = "0.8.3"
+log = "0.4.14"
+mimalloc = { version = "=0.1.25", default-features = false }
+openssl = { version = "=0.10.33", features = ["vendored"] }
+serde = { version = "1.0.125", features = ["derive"] }
+sqlx = { version = "=0.5.2", features = ["mysql", "all-types", "runtime-actix-native-tls"] }
+tapa-trait-serde = { version = "0.2.0", features = ["json"], default-features = false }
