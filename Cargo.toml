@@ -10,7 +10,7 @@ dotenv = "0.15.0"
 env_logger = "0.8.3"
 log = "0.4.14"
 mimalloc = { version = "=0.1.25", default-features = false }
-openssl = { version = "=0.10.33", features = ["vendored"] }
+openssl = { version = "=0.10.48", features = ["vendored"] }
 serde = { version = "1.0.125", features = ["derive"] }
 sqlx = { version = "=0.5.2", features = ["mysql", "all-types", "runtime-actix-native-tls"] }
 tapa-trait-serde = { version = "0.2.0", features = ["json"], default-features = false }
