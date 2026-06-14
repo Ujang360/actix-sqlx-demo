@@ -1,0 +1,6 @@
+[project]
+name = "ujang-actix-sqlx-demo"
+slug = "ujang-actix-sqlx-demo"
+
+[amem]
+server = "https://amem.flusci.org"
